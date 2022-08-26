@@ -35,12 +35,12 @@ Python3 HydaelynAttack/HydaelynAttack.py
 ```
 ------
 ## 脚本文件说明
-- HydaelynAttack.py *基本款，对ffwecc.top fwess.top liwuhe51.top三个网站同时循环打击，咏唱时间120秒，复唱时间60~600秒随机*
-- HydaelynAttack_ffwecc.py *只循环打ffwecc.top，咏唱时间120秒，复唱时间60~600秒随机*
-- HydaelynAttack_fwess.py *只循环打fwess.top，咏唱时间120秒，复唱时间60~600秒随机*
-- HydaelynAttack_liwuhe51.py *只循环打liwuhe51.top，咏唱时间120秒，复唱时间60~600秒随机*
-- HydaelynAttack_p.py *携作版，使用前用 git pull 指令更新项目，获得我发布的最新打击目标，执行本脚本携同我一起打击，咏唱时间120秒，复唱时间60~600秒随机*
-- HydaelynAttack_p_once.py *携作版，使用前用 git pull 指令更新获得统一目标，咏唱时间120秒，一次性执行，用于crontab等计划任务定时部署*
+- [x] HydaelynAttack.py *基本款，对ffwecc.top fwess.top liwuhe51.top三个网站同时循环打击，咏唱时间120秒，复唱时间60~600秒随机*
+- [x] HydaelynAttack_ffwecc.py *只循环打ffwecc.top，咏唱时间120秒，复唱时间60~600秒随机*
+- [x] HydaelynAttack_fwess.py *只循环打fwess.top，咏唱时间120秒，复唱时间60~600秒随机*
+- [x] HydaelynAttack_liwuhe51.py *只循环打liwuhe51.top，咏唱时间120秒，复唱时间60~600秒随机*
+- [x] HydaelynAttack_p.py *携作版，使用前用 git pull 指令更新项目，获得我发布的最新打击目标，执行本脚本携同我一起打击，咏唱时间120秒，复唱时间60~600秒随机*
+- [x] HydaelynAttack_p_once.py *携作版，使用前用 git pull 指令更新获得统一目标，咏唱时间120秒，一次性执行，用于crontab等计划任务定时部署*
 
 ## TO DO
 - [ ] 集成到ACT高级触发器里自动执行
