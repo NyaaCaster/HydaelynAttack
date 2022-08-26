@@ -1,4 +1,4 @@
-# HydaelynAttack
+# HydaelynAttack ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/stars/NyaaCaster/HydaelynAttack?style=social)
 ## 简易定制化DDOS打击工具，可用于自动打击部署
 
 *倾听……感受……思考……*
