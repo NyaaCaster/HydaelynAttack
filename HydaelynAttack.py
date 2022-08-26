@@ -71,8 +71,7 @@ time.sleep(1)
 
 # Value.
 sent = 1
-i = 590
-timeR = i + random.randint(0,20)
+timeR = random.randint(60,600)
 now = datetime.datetime.now()
 dtime = now.strftime("%Y-%m-%d %H:%M:%S")
 port = 80
@@ -101,7 +100,7 @@ if sent == 1:
             sock.sendto(bytes, (str(ip3), port))
             sent += 1
             #port += 1
-            timeR = i + random.randint(0,20)
+            timeR = random.randint(60,600)
             now = datetime.datetime.now()
             dtime = now.strftime("%Y-%m-%d %H:%M:%S")
             # print('\033[32;1m[%s]Sented %s packets to IPs port:%s\033[0m'%(dtime, sent, port))
