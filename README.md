@@ -6,6 +6,7 @@
 ## 前言
 
 这只是为了维护艾欧泽亚不受钓鱼诈骗网站干涉而定制的自动打击策略，故很多参数写死定向打击特定网站，虽然根据实际情况，有能力编辑者脚本中最好自己维护打击目标，但请不要滥用于其他途径。
+**注意，本项目攻击方式流量消耗很大，每轮打击消耗约12M流量，计费制网络资源用户请规划好自己的开销计划。**
 
 ## 环境级工具
 
@@ -32,3 +33,14 @@ git clone https://github.com/NyaaCaster/HydaelynAttack.git
 ```shell
 Python3 HydaelynAttack/HydaelynAttack.py
 ```
+------
+## 脚本文件说明
+- HydaelynAttack.py *基本款，对ffwecc.top fwess.top liwuhe51.top三个网站同时循环打击，咏唱时间120秒，复唱时间60~600秒随机*
+- HydaelynAttack_ffwecc.py *只循环打ffwecc.top，咏唱时间120秒，复唱时间60~600秒随机*
+- HydaelynAttack_fwess.py *只循环打fwess.top，咏唱时间120秒，复唱时间60~600秒随机*
+- HydaelynAttack_liwuhe51.py *只循环打liwuhe51.top，咏唱时间120秒，复唱时间60~600秒随机*
+- HydaelynAttack_p.py *携作版，使用前用 git pull 指令更新项目，获得我发布的最新打击目标，执行本脚本携同我一起打击，咏唱时间120秒，复唱时间60~600秒随机*
+- HydaelynAttack_p_once.py *携作版，使用前用 git pull 指令更新获得统一目标，咏唱时间120秒，一次性执行，用于crontab等计划任务定时部署
+
+## TO DO
+- [ ] 集成到ACT高级触发器里自动执行
