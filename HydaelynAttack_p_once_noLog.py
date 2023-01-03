@@ -37,4 +37,4 @@ if i == 1:
             dtime = now.strftime("%Y-%m-%d %H:%M:%S")
             
     except:
-        print('\n\033[31;1m65535 attacks completed, Exited\033[0m')
+        print('65535 attacks completed, Exited')
