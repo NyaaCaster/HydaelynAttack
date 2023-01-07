@@ -35,7 +35,8 @@ print('')
 
 # Get ip.
 url = "fwe88.top"
-ip = socket.gethostbyname(url)
+#ip = socket.gethostbyname(url)
+ip = "103.81.169.25"
 
 # Value.
 sent = 1
