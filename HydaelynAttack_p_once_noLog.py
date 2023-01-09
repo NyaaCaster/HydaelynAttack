@@ -35,7 +35,7 @@ print('')
 
 # Get ip.
 url = "fwe55.top"
-#ip = socket.gethostbyname(url)
+ip = socket.gethostbyname(url)
 #ip = "103.81.169.25"
 
 # Value.
