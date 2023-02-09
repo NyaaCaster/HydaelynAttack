@@ -34,7 +34,7 @@ print('/ac Groundwork')
 print('')
 
 # Get ip.
-url = "fwe33.top"
+url = "ffwe33.top"
 ip = socket.gethostbyname(url)
 #ip = "103.215.51.91"
 
